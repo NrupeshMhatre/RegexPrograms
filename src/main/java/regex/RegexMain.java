@@ -15,6 +15,8 @@ public class RegexMain {
 		reg.Mobilenumb();
 		System.out.print("  PassWord Rule1 is: ");
 		reg.PasswordRule1();
+		System.out.print("  PassWord Rule2 is: ");
+		reg.PasswordRule2();
 	}
 
 }

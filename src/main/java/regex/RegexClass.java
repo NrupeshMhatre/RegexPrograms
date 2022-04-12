@@ -75,5 +75,18 @@ public class RegexClass {
 			System.out.print("No Match");
 			}
 	}
-
+	public void PasswordRule2()
+	 {
+		String line="Nrupeshmhatre";
+		String pattern="[A-Z]{1}[a-z]{1,}";
+		Pattern p=Pattern.compile(pattern);
+		Matcher matcher=p.matcher(line);
+		if(matcher.matches())
+		{
+			System.out.print("Pattern Match");
+		}
+		else {
+			System.out.print("No Match");
+			}
+}
 }
