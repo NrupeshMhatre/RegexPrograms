@@ -19,6 +19,8 @@ public class RegexMain {
 		reg.PasswordRule2();
 		System.out.print("  PassWord Rule3 is: ");
 		reg.PasswordRule3();
+		System.out.print("  PassWord Rule4 is: ");
+		reg.PasswordRule4();
 	}
 
 }

@@ -103,4 +103,18 @@ public class RegexClass {
 			System.out.print("No Match");
 			}
 }
+	public void PasswordRule4()
+	 {
+		String line="Nrupeshmhatre@45";
+		String pattern="[A-Z]{1}[a-z]{1,}[@][0-9]{2}";
+		Pattern p=Pattern.compile(pattern);
+		Matcher matcher=p.matcher(line);
+		if(matcher.matches())
+		{
+			System.out.print("Pattern Match");
+		}
+		else {
+			System.out.print("No Match");
+			}
+}
 }
