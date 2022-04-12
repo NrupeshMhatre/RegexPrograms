@@ -13,6 +13,8 @@ public class RegexMain {
 		reg.Email();
 		System.out.print("  MobileNumber is: ");
 		reg.Mobilenumb();
+		System.out.print("  PassWord Rule1 is: ");
+		reg.PasswordRule1();
 	}
 
 }
