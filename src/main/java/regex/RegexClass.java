@@ -46,5 +46,20 @@ public class RegexClass {
 			System.out.print("No Match");
 			}
 	}
+	public void Mobilenumb()
+	 {
+				String line="91 9988776655";
+				String pattern="[0-9]{2} [98]{1}[0-9]{9}";
+				Pattern p=Pattern.compile(pattern);
+				Matcher matcher=p.matcher(line);
+				if(matcher.matches())
+				{
+					System.out.print("Pattern Match");
+				}
+				else {
+					System.out.print("No Match");
+					}
+
+			}
 
 }

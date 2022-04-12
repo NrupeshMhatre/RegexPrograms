@@ -11,6 +11,8 @@ public class RegexMain {
 		reg.LastName();
 		System.out.print("  Email is: ");
 		reg.Email();
+		System.out.print("  MobileNumber is: ");
+		reg.Mobilenumb();
 	}
 
 }
