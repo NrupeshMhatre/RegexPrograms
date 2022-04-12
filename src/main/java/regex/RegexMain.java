@@ -9,6 +9,8 @@ public class RegexMain {
 		reg.ValidName();
 		System.out.print("  LastName is:");
 		reg.LastName();
+		System.out.print("  Email is: ");
+		reg.Email();
 	}
 
 }

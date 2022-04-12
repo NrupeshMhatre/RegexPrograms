@@ -32,5 +32,19 @@ public class RegexClass {
 		System.out.print("No Match");
 		}
 }
+	public void Email()
+	{
+		String line="abc.xyz@bl.com.in";
+		String pattern="[a-z \\. a-z]+[@][a-z]+\\.[a-z]{3}+\\.[a-z]{2}";
+		Pattern p=Pattern.compile(pattern);
+		Matcher matcher=p.matcher(line);
+		if(matcher.matches())
+		{
+			System.out.print("Pattern Match");
+		}
+		else {
+			System.out.print("No Match");
+			}
+	}
 
 }
