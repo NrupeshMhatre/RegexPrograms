@@ -18,5 +18,19 @@ public class RegexClass {
 				System.out.print("No Match");
 				}
 		}
+	public void  LastName()
+	 {
+	String line="Mhatre";
+	String pattern="[A-Z][a-z]*";
+	Pattern p=Pattern.compile(pattern);
+	Matcher matcher=p.matcher(line);
+	if(matcher.matches())
+	{
+		System.out.print("Pattern Match");
+	}
+	else {
+		System.out.print("No Match");
+		}
+}
 
 }

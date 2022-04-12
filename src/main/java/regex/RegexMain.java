@@ -7,6 +7,8 @@ public class RegexMain {
 		RegexClass reg=new RegexClass();
 		System.out.print("validName is:");
 		reg.ValidName();
+		System.out.print("  LastName is:");
+		reg.LastName();
 	}
 
 }
